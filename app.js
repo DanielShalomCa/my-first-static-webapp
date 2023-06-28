@@ -13,3 +13,7 @@ switcher.addEventListener('click', function() {
     }
     console.log('current class name: ' + className);
 });
+
+function switchImage(imgPath) {
+    document.getElementById("imageid").src="./images/" + imgPath;
+}
